@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--membuat tampilan untuk fragment4-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_4">
+
+    <!--menyisipkan gambar-->
+    <ImageView
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="26dp"
+        android:src="@drawable/akunn"/>
+
+    <!--diperlukan layout didalamnya untuk mengatur posisi teks-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <!--menyisipkan teks nama-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="100dp"
+            android:text="Nabiyla Hamestuti"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <!--menyisipkan teks new account-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="100dp"
+            android:text="New Account!"
+            android:textSize="15sp"/>
+    </LinearLayout>
+</FrameLayout>

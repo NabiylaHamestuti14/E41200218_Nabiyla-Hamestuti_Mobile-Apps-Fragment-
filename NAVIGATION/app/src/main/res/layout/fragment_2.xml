@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--membuat tampilan fragment2-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_2"
+    android:background="@drawable/bg">
+
+    <!--membuat layout untuk tampilan search-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/white_rectangle"
+        android:orientation="horizontal">
+
+        <!--menyisipkan edit teks search here-->
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:hint="Search Here ..."
+            android:inputType="text"
+            android:paddingStart="5dp"
+            android:textSize="15sp"/>
+
+        <!--menyisipkan icon search-->
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_background"
+            android:padding="6dp"
+            android:src="@drawable/search"/>
+    </LinearLayout>
+</FrameLayout>
